@@ -8,9 +8,9 @@ Future<void> main(List<String> args) {
   return runInstallerApp(
     args,
     flavor: FlavorData(
-      name: 'Ubuntu FLAVOR',
-      theme: yaruMagentaLight,
-      darkTheme: yaruMagentaDark,
+      name: 'Ubuntu Cinnamon',
+      theme: yaruUbuntuCinnamonLight,
+      darkTheme: yaruUbuntuCinnamonDark,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
     ),
     slides: [
